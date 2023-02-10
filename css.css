@@ -1,1 +1,65 @@
-ECHO is on.
+.kalkulator{
+  width: 300px;
+  background-color: #D1FFF3;
+  margin: 50px auto 0px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#screen{
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #cecece;
+  font-size: 25px;
+  font-weight: bold;
+  color: #20262E;
+  padding: 7px 5px;
+  text-align: right;
+  outline: none;
+}
+
+.container-button{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.button{
+  display: flex;
+  width: 25%;
+  font-size: 20px;
+  color: #20262E;
+  font-weight: bold;
+  height: 70px;
+  border: 1px solid #cecece;
+  border-top: none;
+  border-left: none;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:nth-child(4n+1) {
+  border-left: 1px solid #cecece;
+}
+
+.button:hover {
+  background: #e1e1e1;
+  cursor: pointer;
+}
+
+#nol{
+  flex-grow: 1;
+}
+
+.operator{ 
+  background-color: #C1AEFC;
+}
+
+#eval{
+  background-color: #F6F7C1;
+}
+
+#eval:hover{
+  background-color: aliceblue;
+}
